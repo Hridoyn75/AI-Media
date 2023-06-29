@@ -1,0 +1,442 @@
+.app___flexbox{
+    display: flex;
+    width: 100%;
+    padding-left: 22%;
+    padding-right: 11%;
+    gap: 35px;
+}
+.nav___flexbox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(68, 68, 68, 0.384);
+    position: sticky;
+    top: 0;
+
+}
+.nav___logo{
+    max-width: 150px;
+}
+.post___box{
+    background-color: rgb(34, 37, 40);
+    /* color: rgb(54, 50, 50); */
+    color: lightblue;
+    max-width: 520px;
+    padding-top: 20px;
+    /* border: 2px rgb(1, 75, 104) solid; */
+    border-radius: 5px;
+    margin-top: 25px;
+
+
+    border-top: 1px white solid;
+    border-left: 1px white solid;
+    box-shadow: 3px 3px 5px rgb(4, 172, 214);
+}
+.post___box strong {
+    color: #00bb92;
+}
+.post___flexbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5%;
+    position: relative;
+}
+.post___delete {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    color: red;
+}
+.post___caption{
+    padding: 10px;
+}
+.post___img{
+    object-fit: contain;
+    width: 100%;
+    max-height: 520px;
+}
+.post___publicbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 35px;
+}
+.post___updown{
+    display: flex;
+    gap: 20px;
+}
+.post___btngroup{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 156, 177);
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0px 10px!important;
+}
+.post___btncondition{
+    border-radius: 20px;
+    background: rgb(13, 18, 22);
+    border: rgb(0, 123, 145) 2px solid;
+}
+.post___latestcomment{
+    font-size: 15px;
+    color: cornflowerblue;
+    border: 1px solid rgb(88, 81, 68);
+    padding: 5px;
+    border-radius: 5px;
+}
+.post___latestcomment small {
+    color: rgb(214, 214, 219);
+}
+.post___nophoto{
+    background: orange;
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 50px 25px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.post___hashtag{
+    color: red;
+}
+.profilecard___wrapper{
+    width: 100%;
+    max-width: 380px;
+    position: fixed;
+}
+.profilecard___box{
+    width: 100%;
+    max-width: 380px;
+}
+.post___box a {
+    text-decoration: none;
+}
+.profilecard___flexbox{
+    display: flex;
+    gap: 15px;
+    overflow-x: hidden;
+}
+.profilecard___newpost {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    width: 100%;
+}
+.profilecard___input{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px darkslategray solid;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+.profilecard___error {
+    color: red;
+}
+.profilecard___success {
+    color: rgb(0, 252, 0);
+}
+.profilecard___anonymous{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(59, 54, 54);
+    border-radius: 10px;
+    color: aqua;
+}
+.login___box{
+    width: 100%;
+    background-color: rgba(27, 15, 49, 0.863);
+    border: 2px lightgray solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 25px;
+    max-width: 350px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.login___box h2{
+    color: yellow;
+    letter-spacing: 3px;
+}
+.login___box button{
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: bisque;
+    border: 1px rgb(58, 73, 2) solid;
+}
+.userprofile___card{
+    max-width: 450px;
+}
+.userprofile___box1{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+.userprofile___box1 h3{
+    color: yellow;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.userprofile___box2{
+    flex: 2;
+    position: relative;
+}
+.userprofile___columnflex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.userprofile___socialmatebtn{
+    padding: 10px 15px;
+    max-width: 150px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    box-shadow: 1.5px 1.5px 3px rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.userprofile___socialmatebtn:hover{
+    background-color: rgb(0, 130, 236);
+    color: white;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    border-right: 1px rgb(255, 255, 255) solid;
+}
+.userprofile___unsocialmatebtn{
+    padding: 10px 15px;
+    max-width: 150px;
+    background-color: rgb(0, 130, 236);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px rgb(115, 216, 0) solid;
+    border-right: 1px rgb(115, 216, 0) solid;
+    box-shadow: 1.5px 1.5px 3px rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.userprofile___unsocialmatebtn:hover{
+    color: black;
+    background-color: red;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+}
+
+
+.userprofile___bottom{
+    display: flex;
+    gap : 20px;
+    padding: 0px 20px;
+}
+.userprofile___bio {
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: yellow;
+}
+.commentmodal___close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.commentmodal___list{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.commentmodal___comment{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background-color: #222528;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.commentmodal___comment div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.commentmodal___text {
+    padding-left: 50px;
+    color: aquamarine;
+}
+.commentmodal___new{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 22.5px;
+    background-color: #424242;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: sticky;
+}
+.commentmodal___new textarea {
+    max-width: 70%;
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    color: lightblue;
+    padding: 10px;
+    outline: 1px solid white;
+    border-radius: 5px;
+}
+.commentmodal___new Button {
+    max-height: 40px;
+}
+.nav___avatar{
+    cursor: pointer;
+}
+.magicbar___flexbox{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 15px 15px 0;
+    gap: 2px;
+}
+.magicbar___item svg {
+    color: white;
+    font-size: 2rem;
+}
+.magicbar___item{
+    padding: 12px 10px 8px 10px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    border-radius: 15px;
+}
+.magicbar___item:hover{
+    background-color: #30aa3a;
+
+}
+.magicbar___center{
+    background-color: #30aa3a;
+}
+.magicbar___center:hover{
+    background-color: yellow;
+}
+.magicbar___center:hover svg {
+    color: black;
+}
+.skeletonpost___card{
+    max-width: 520px;
+    margin: 0;
+    min-width: 520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global CSS Codes */
+.global___card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #190f2d;
+    border-radius: 10px;
+    border-top: 1px white solid;
+    border-left: 1px white solid;
+    box-shadow: 3px 3px 5px rgb(4, 172, 214);
+    margin-top: 25px;
+}
+
+
+
+
+/* Responsive CSS Code */
+
+@media only screen and (max-width: 720px) {
+    .app___flexbox{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 4%;
+        padding-right: 4%;
+        gap: 0;
+    }
+    .profilecard___wrapper{
+        width: 100%;
+        max-width: 380px;
+        position: static;
+    }
+    .login___box{
+        position: static;
+    }
+    .hide___in___phone {
+        display: none;
+    }
+    .magicbar___flexbox{
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-direction: horizontal;
+        background-color: rgb(25, 15, 45);
+        border-radius: 15px 15px 0 0;
+        z-index: 2;
+        border-top: 2px solid white;
+
+    }
+    .magicbar___item:hover{
+        background-color: #00bb92;
+    }
+    .magicbar___center{
+        background-color: rgb(179, 179, 4);
+        border-radius: 0;
+    }
+    .magicbar___center svg{
+        color: black;
+    }
+    .nav___flexbox{
+        position: static;
+    }
+    .skeletonpost___card{
+        min-width: auto;
+    }
+    .commentmodal___new{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .commentmodal___new textarea{
+        width: 100%;
+        max-width: 100%;
+    }
+  }
