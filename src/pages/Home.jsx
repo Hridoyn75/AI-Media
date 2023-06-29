@@ -68,7 +68,7 @@ export default function HomePage ({user, posts}){
             />
             : 
             <div className="login___box">
-                    <h2>Join notSocial</h2>
+                    <h2>Join AI Media</h2>
                     <button onClick={handleSignUp}>Join with Google</button>
             </div>
             }
